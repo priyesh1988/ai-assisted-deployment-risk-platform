@@ -1,0 +1,16 @@
+
+fastapi
+uvicorn
+sqlalchemy
+psycopg2-binary
+redis
+neo4j
+openai
+python-jose
+passlib[bcrypt]
+scikit-learn
+joblib
+prometheus-client
+opentelemetry-api
+opentelemetry-sdk
+httpx

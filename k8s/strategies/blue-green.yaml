@@ -1,0 +1,10 @@
+
+apiVersion: argoproj.io/v1alpha1
+kind: Rollout
+metadata:
+  name: ai-risk-bluegreen
+spec:
+  strategy:
+    blueGreen:
+      activeService: ai-risk-active
+      previewService: ai-risk-preview
